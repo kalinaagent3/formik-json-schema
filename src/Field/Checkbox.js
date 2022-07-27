@@ -27,7 +27,7 @@ const Checkbox = ({ config, formik, value, error }) => {
       }
       return checked;
     };
-
+    console.log("this will not workk");
     return (
       <div key={key} className={formCheckClass}>
         <label htmlFor={fieldName} className={formCheckLabelClass}>
