@@ -24,7 +24,7 @@ export default {
         type: "field",
         renderer: "text",
         fieldType: "text",
-        comment: "This is a field comment. You can add your text here.",
+        comment: "<b>This is a field comment. You can add your text here.</b>",
       },
       inputGroup: {
         type: "container",
